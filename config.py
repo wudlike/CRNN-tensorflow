@@ -1,0 +1,7 @@
+# supported characters
+CHAR_VECTOR = " 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-'."
+# number of classes
+NUM_CLASS = len(CHAR_VECTOR) + 1
+
+NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN = 9000
+NUM_EXAMPLES_PER_EPOCH_FOR_TEST = 1000
